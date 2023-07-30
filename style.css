@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    background-color: #dcfbfb;
+    font-family: 'Rowdies', cursive;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+bg-img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    z-index: 0;
+    width: 12800px;
+}
+.parallax{
+    pointer-events: none;
+    transition: 0.45s cubic-bezier(0.2,0.49,0.32, 0.99);
+}
+.forest-9{
+    position: absolute;
+    top:50%;
+    left:50%;
+    z-index: 1;
+}
+
+.forest-8{
+    position: absolute;
+    top:50%;
+    left:50%;
+    z-index: 2;
+
+}
+
+.forest-7{
+    position: absolute;
+    top:50%;
+    left:50%;
+    z-index: 3;
+
+}
+
+
+.forest-6{
+    position: absolute;
+    top:50%;
+    left:50%;
+    z-index: 4;
+}
+
+
+.forest-5{
+    position: absolute;
+    top:50%;
+    left:50%;
+    z-index:5;
+}
+
+
+.forest-4{
+    position: absolute;
+    top:50%;
+    left:50%;
+    z-index:6;
+}
+
+.forest-3{
+    position: absolute;
+    top:50%;
+    left:50%;
+    z-index:8;
+}
+
+.forest-2{
+    position: absolute;
+    top:50%;
+    left:50%;
+    z-index:9;
+}
+
+.forest-1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    z-index:10;
+}
+
+.text{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    color: #000000;
+    z-index: 7;
+}
+.text h1{
+    font-weight: 800;
+    font-size: 8rem;
+}
+.text h2{
+    font-weight: 200;
+    font-size: 4rem;
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+}
+
+
+nav{
+    position: absolute;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px black solid;
+}
+
+nav h1{
+    background-color: rgba(0, 255, 255, 0.22);
+    border-radius: 5px;
+    text-decoration: underline;
+    font-size: 2.5em;
+    margin: 5px  0 5px 0 ;
+
+}
+nav h2{
+    display: flex;
+    background-color: rgba(0, 255, 51, 0.22);
+    border-radius: 5px;
+    font-size: 2.5em;
+    margin: 5px  0 5px 0 ;
+
+}
